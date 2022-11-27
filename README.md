@@ -11,6 +11,8 @@ SQL执行流程包刮：
 
 关键点01：参数是如何注如SQL语句【2种形式】  
 ParameterHandler  
+PreparedStatementHandler#parameterize()  
+DefaultParameterHandler#setParameters()  
 
 关键点02：SQL语句执行经历了那些组件  
 1. SqlSession  
