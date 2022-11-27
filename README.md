@@ -2,6 +2,12 @@
 主要是使用SqlSession接口。有两种开发方式，一是基于Dao层接口实现类开发，调用session.selectOne接口。二是基于动态代理自动生成Dao层接口实现类， 调用session.getMapper接口。
 
 # 题目02：请你用自己的理解，简单说说MyBatis内SQL语句的执行原理?  
+SQL执行流程包刮：
+1. selectOne  
+2. SQL获取  
+3. 参数设置  
+4. SQL执行  
+5. 结果集封装  
 关键点01：参数是如何注如SQL语句【2种形式】  
 ParameterHandler  
 
