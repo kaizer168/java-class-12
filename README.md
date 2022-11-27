@@ -3,9 +3,11 @@
 
 # 题目02：请你用自己的理解，简单说说MyBatis内SQL语句的执行原理?  
 关键点01：参数是如何注如SQL语句【2种形式】  
+
 关键点02：SQL语句执行经历了那些组件  
 1. SqlSession  
 2. Executor  
 3. StatementHandler  
 4. TypeHandler  
+
 关键点03：结果集如和映射到对象  
