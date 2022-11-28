@@ -3,7 +3,7 @@
 
 # 题目02：请你用自己的理解，简单说说MyBatis内SQL语句的执行原理?  
 SQL执行流程包刮：
-1. selectOne | insert | update | delete  
+1. selectOne | selectList | insert | update | delete  
 2. SQL获取  
 3. 参数设置  
 4. SQL执行  
